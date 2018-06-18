@@ -1,0 +1,27 @@
+import React from 'react';
+
+const AddClase1 = ({styles, handleClickRegr}) => {
+  return (
+    <div>
+      <button className="ui right labeled icon button fluid" style={styles.titBuscar}>
+        <i className="large sitemap yellow icon"></i>
+        Opciones
+      </button>
+
+      <button className="ui right labeled icon button fluid" style={styles.dropdown}>
+        <i className="large edit violet icon"></i>
+        Autorizaciones
+      </button>
+      <button className="ui right labeled icon button fluid" style={styles.dropdown}>
+        <i className="large check violet icon"></i>
+        Confirmar
+      </button>
+      <button className="ui labeled icon button fluid" style={styles.dropdown} onClick={handleClickRegr}>
+        <i className="large arrow left violet icon"></i>
+        Regresar
+      </button>
+    </div>
+  )
+};
+
+export default AddClase1

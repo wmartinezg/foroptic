@@ -1,0 +1,29 @@
+/*Lo siguiente es otra forma para reemplazar a <marquee< de html*/
+.marquee {
+    height: 1.5em;
+    width: 100%;
+  
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee span {
+    float: left;
+    width: 50%;
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }

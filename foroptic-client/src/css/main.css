@@ -1,0 +1,26 @@
+body, #root{
+    background: #373B44;
+    /* background-color: #373B44; */
+    /* background-image: url('images/fondo.jpg'); */
+    /* background-attachment: fixed; */
+    height: 100%;
+    /* opacity: 0.6; */
+    /* transition: opacity 6s; */
+}
+
+/* hacer responsive para tablets */
+@media screen and (max-width: 1366px) {
+    body {
+        /* border: 4px solid red; */
+        width: auto;
+        max-width: 1366px;
+        margin: 0 0 0 0;
+    }
+    .container1 {
+        border: 4px solid red;
+        width: auto;
+        max-width: auto;
+        margin: 100px 0 0 0;
+        padding: 100px;
+    }
+}
